@@ -1,6 +1,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown.js");
+
 // array of questions for user
 const questions = () => {
   return inquirer.prompt([
@@ -30,13 +32,13 @@ const questions = () => {
     },
     {
       type: "input",
-      message:
-        "If applicable, describe the steps required to install your project for the Installation section.",
+      message: "Please describe the steps required to install your project:",
       name: "installation",
     },
     {
       type: "input",
-      message: "Describe the installation process if any: ",
+      message:
+        "Provide instructions and examples of your project in use for the Usage section. ",
       name: "usage",
     },
     {
@@ -61,12 +63,13 @@ const questions = () => {
         "MIT License",
         "Boost Software License 1.0",
         "The Unlicense",
+        "No License",
       ],
       name: "license",
     },
     {
       type: "input",
-      message: "What is your GitHub username? (No @ needed)",
+      message: "What is your GitHub username?",
       name: "username",
       default: "connietran-dev",
       validate: function (answer) {
@@ -85,10 +88,23 @@ const questions = () => {
 };
 
 // function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // function to initialize program
-function init() {}
+const init = async () => {
+  console.log("hi");
+  try {
+    const answers = await questions();
+
+    const md = generateMarkdown(answers);
+
+    await writeFileAsync("Readme.md", md);
+
+    console.log("Successfully wrote to index.html");
+  } catch (err) {
+    console.log(err);
+  }
+};
 
 // function call to initialize program
 init();
