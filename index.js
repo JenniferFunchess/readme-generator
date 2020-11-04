@@ -3,6 +3,8 @@ const inquirer = require("inquirer");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
+const writeFileAsync = util.promisify(fs.writeFile);
+
 // array of questions for user
 const questions = () => {
   return inquirer.prompt([
