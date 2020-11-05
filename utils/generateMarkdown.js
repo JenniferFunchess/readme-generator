@@ -10,35 +10,44 @@ function generateMarkdown(data) {
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [License](#license)
-- [Questions](#questions)
+- [Contact](#contact)
 
 ## Project Description:
+<br />
 *${data.description}
 
 ## Installation:
+<br />
 * Link to live URL below.
   *${data.installation}
 
 ## Usage:
+<br />
 * Provided instructions and examples listed below.
   *${data.usage}
 
 ## Contributions:
+<br />
 *All contributors below.
   *${data.contributing}
 
 ## Tests Used:
+<br />
 * Provided tests used for your application below.
   *${data.tests}
 
 ## License:
+<br />
 * Chosen license below.
   *${data.license}
 
 
-## Contact
-[GitHub](http://github.com/${data.username})
-${data.email}
+## Contact :telephone_receiver:
+<br />
+*For any questions, please contact me with the information below:
+<br />
+ *Github: [GitHub](http://github.com/${data.username})
+ *Email: ${data.email}
 
 `;
 }

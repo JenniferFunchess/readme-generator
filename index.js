@@ -100,7 +100,7 @@ const init = async () => {
 
     const md = generateMarkdown(answers);
 
-    await writeFileAsync("Readme.md", md);
+    await writeFileAsync("newReadme.md", md);
 
     console.log("Successfully wrote to index.html");
   } catch (err) {
