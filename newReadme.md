@@ -1,4 +1,4 @@
-# Project Title: Readme Generator
+# Project Title: readme generator
 
 ## Table of Contents
 
@@ -12,43 +12,43 @@
 
 ## Project Description:
 
-<br />
-*We are using node and inquirer to generate a readme
+- bla
 
 ## Installation:
 
-<br />
-* Link to live URL below.
-  *one two and three
+- Link to live URL below.
+  <br />
+  \*blahblah
 
 ## Usage:
 
-<br />
-* Provided instructions and examples listed below.
-  *usage section
+- Provided instructions and examples listed below.
+  <br />
+  \*blah
 
 ## Contributions:
 
+\*All contributors below.
 <br />
-*All contributors below.
-  *inquirer and markdown
+
+- blah
 
 ## Tests Used:
 
-<br />
-* Provided tests used for your application below.
-  *not this one
+- Provided tests used for your application below.
+  <br />
+  - blah
 
 ## License:
 
-<br />
-* Chosen license below.
-  *No License
+- Chosen license below.
+  <br />
+  - No License
 
 ## Contact :telephone_receiver:
 
-<br />
 *For any questions, please contact me with the information below:
 <br />
- *Github: [GitHub](http://github.com/JenniferFunchess)
- *Email: jfunchess@ymail.com
+*Github: [GitHub](http://github.com/blah)
+<br />
+\*Email: blah
