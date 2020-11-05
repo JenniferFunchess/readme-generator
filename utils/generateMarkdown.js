@@ -13,40 +13,39 @@ function generateMarkdown(data) {
 - [Contact](#contact)
 
 ## Project Description:
-<br />
-*${data.description}
+* ${data.description}
 
 ## Installation:
-<br />
 * Link to live URL below.
+<br />
   *${data.installation}
 
 ## Usage:
-<br />
 * Provided instructions and examples listed below.
+<br />
   *${data.usage}
 
 ## Contributions:
-<br />
 *All contributors below.
-  *${data.contributing}
+<br />
+  * ${data.contributing}
 
 ## Tests Used:
-<br />
 * Provided tests used for your application below.
-  *${data.tests}
+<br />
+  * ${data.tests}
 
 ## License:
-<br />
 * Chosen license below.
-  *${data.license}
+<br />
+  * ${data.license}
 
 
 ## Contact :telephone_receiver:
-<br />
 *For any questions, please contact me with the information below:
 <br />
  *Github: [GitHub](http://github.com/${data.username})
+ <br />
  *Email: ${data.email}
 
 `;
