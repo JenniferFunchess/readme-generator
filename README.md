@@ -19,7 +19,8 @@ ReadMe Generator
 ## Installation:
 
 - ## Watch the video below to see how it works:
-  - ![Watch the video](https://drive.google.com/file/d/1JSdPjSjc2rBnjVjjlBlp4YD9g2CMAhFX/view)
+  - [![Watch the video](video.png)] (https://drive.google.com/file/d/1JSdPjSjc2rBnjVjjlBlp4YD9g2CMAhFX/view)
+  - ![Watch the video](ReadMeGenerator.gif)
 
 ## Usage:
 
