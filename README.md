@@ -19,6 +19,7 @@ ReadMe Generator
 ## Installation:
 
 - Watch the video below to see how it works:
+  - [![Watch the video](hhttps://drive.google.com/file/d/1JSdPjSjc2rBnjVjjlBlp4YD9g2CMAhFX/preview)](https://drive.google.com/file/d/1JSdPjSjc2rBnjVjjlBlp4YD9g2CMAhFX/preview)
   - <iframe src="https://drive.google.com/file/d/1JSdPjSjc2rBnjVjjlBlp4YD9g2CMAhFX/preview" width="640" height="480"></iframe>
 
 ## Usage:
